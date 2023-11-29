@@ -1,0 +1,103 @@
+/* Reset some default styles */
+body, h1, h2, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000000;
+    color: rgb(243, 134, 10)3;
+  }
+  
+  /* Header styles */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(243, 134, 10);
+    color: #fff;
+    padding: 20px;
+    border-bottom: 4px solid #cf914a;
+  }
+  
+  .profile img {
+    width: 200px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+  }
+  
+  .header-content h1 {
+    font-size: 60px;
+    margin-bottom: 5px;
+  }
+  
+  .header-content p {
+    font-size: 18px;
+    opacity: 0.8;
+  }
+  
+  /* Contact Information styles */
+  .contact {
+    background-color: #fff;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(243, 134, 10);
+    max-height: 200px; /* Ajusta esta altura según tus necesidades */
+    overflow: hidden;
+}
+
+  
+  .contact h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(243, 134, 10);
+  }
+  
+  .contact ul {
+    list-style-type: none;
+  }
+  
+  .contact li {
+    margin-bottom: 5px;
+  }
+  
+  .contact span {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Education styles */
+  .education {
+    background-color: #fff;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .education h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: rgb(243, 134, 10);
+  }
+  
+  .education ul {
+    list-style-type: none;
+  }
+  
+  .education li {
+    margin-bottom: 10px;
+  }
+  
+  /* Add more styling for other sections */
+  
+  /* Use Google Fonts */
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  
